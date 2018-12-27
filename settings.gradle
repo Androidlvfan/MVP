@@ -1,0 +1,1 @@
+include ':app', ':day01test', ':day03_mvp_demo', ':day02test', ':xlistview'
