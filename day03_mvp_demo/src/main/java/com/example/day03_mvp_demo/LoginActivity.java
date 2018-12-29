@@ -54,7 +54,7 @@ private Button but_register;
         }
 
     }
-//啊啊 我不知道
+//啊啊 我不知道真的不知道
     private void initData() {
         presenter = new LoginPresenter(this);
     }
