@@ -50,7 +50,7 @@ private Button but_register;
         params.put("password",password);
 
         if(presenter != null){
-            presenter.login(params);
+            presenter.login(params);      //dededefrgthyjukilo
         }
 
     }
