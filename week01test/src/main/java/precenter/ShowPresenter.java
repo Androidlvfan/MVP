@@ -1,4 +1,7 @@
 package precenter;
 
-public interface ShowPresenter {
+import contract.ShowContract;
+
+public interface ShowPresenter extends ShowContract.ShowPresenter {
+
 }

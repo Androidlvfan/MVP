@@ -8,6 +8,7 @@ public class ShowModel implements ShowContract.ShowModel {
 
     @Override
     public void Success(String result) {
+
         OkHttpClient okHttpClient = new OkHttpClient.Builder()
                 .connectTimeout(5,TimeUnit.SECONDS)
                 .readTimeout(5,TimeUnit.SECONDS)
