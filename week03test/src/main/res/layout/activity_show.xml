@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowActivity">
+<EditText
+    android:id="@+id/et_Zxing"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    />
+    <ImageView
+        android:id="@+id/iv_Zxing"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintTop_toBottomOf="@id/et_Zxing"
+        />
+    <Button
+        android:id="@+id/but_Zxing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/iv_Zxing"
+        android:text="生成二维码"
+        />
+    <Button
+        android:id="@+id/error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/but_Zxing"
+        android:text="全局捕获异常"
+        />
+</android.support.constraint.ConstraintLayout>
